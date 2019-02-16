@@ -98,12 +98,12 @@ http://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.11.tar.gz
 
 # boost设置(mysql5.6依赖)
 
-boost_filename="boost_1_66_0"
+boost_filename="boost_1_59_0"
 set_md5 $boost_filename "d275cd85b00022313c171f602db59fc5"
 set_dl $boost_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/boost_1_66_0.tar.gz
-http://dl-us.centos.bz/ezhttp/boost_1_66_0.tar.gz
-http://jaist.dl.sourceforge.net/project/boost/boost/1.66.0/boost_1_66_0.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/boost_1_59_0.tar.gz
+http://dl-us.centos.bz/ezhttp/boost_1_59_0.tar.gz
+http://jaist.dl.sourceforge.net/project/boost/boost/1.59.0/boost_1_59_0.tar.gz
 '
 
 #php设置
@@ -153,6 +153,15 @@ set_dl $php7_1_filename '
 http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.1.0.tar.gz
 http://dl-us.centos.bz/ezhttp/php-7.1.0.tar.gz
 http://us1.php.net/distributions/php-7.1.0.tar.gz
+'
+
+php7_2_filename="php-7.2.0"
+set_md5 $php7_2_filename "d6623f724567eab2dce85138acef6dd9"
+set_dl $php7_2_filename '
+http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.2.6.tar.gz
+http://dl-us.centos.bz/ezhttp/php-7.2.6.tar.gz
+http://php.net/distributions/php-7.2.6.tar.gz
+http://us1.php.net/distributions/php-7.2.6.tar.gz
 '
 
 #freetds设置

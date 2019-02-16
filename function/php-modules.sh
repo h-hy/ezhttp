@@ -26,6 +26,8 @@ php_modules_preinstall_settings(){
 						php=${php5_6_filename}
 					elif [[ `get_php_version $phpConfig` == "7.1" ]]; then
 						php=${php7_1_filename}												
+					elif [[ `get_php_version $phpConfig` == "7.2" ]]; then
+						php=${php7_2_filename}												
 					else
 						echo "sorry,unsupported php version."
 						exit 1
